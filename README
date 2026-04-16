@@ -1,0 +1,21 @@
+# SQL Data Analysis Project
+
+## Overview
+
+This project focuses on analyzing structured data using SQL to generate business insights.
+
+## Tools Used
+
+* SQL (MySQL / PostgreSQL)
+
+## Key Queries
+
+* Top customers by revenue
+* Monthly sales trends
+* Product performance analysis
+
+## Key Insights
+
+* Identified high-value customers contributing maximum revenue
+* Analyzed sales trends across different time periods
+* Extracted insights to support business decisions
