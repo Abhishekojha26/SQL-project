@@ -1,21 +1,93 @@
-# SQL Data Analysis Project
+# 📚 Online Bookstore Sales & Customer Analytics
 
-## Overview
+## 📌 Project Overview
 
-This project focuses on analyzing structured data using SQL to generate business insights.
+This project analyzes an online bookstore dataset using PostgreSQL to understand sales performance, customer purchasing behavior, book performance, revenue trends, and inventory status.
 
-## Tools Used
+The analysis was performed using SQL techniques ranging from basic aggregations to advanced concepts such as CTEs, window functions, `LAG()`, `DENSE_RANK()`, `CASE WHEN`, and `COALESCE()`.
 
-* SQL (MySQL / PostgreSQL)
+---
 
-## Key Queries
+## 🎯 Business Objectives
 
-* Top customers by revenue
-* Monthly sales trends
-* Product performance analysis
+The main objectives of this project are:
 
-## Key Insights
+- Analyze overall bookstore sales and revenue
+- Identify best-selling books and high-performing genres
+- Identify high-value and repeat customers
+- Analyze monthly revenue trends and growth
+- Evaluate inventory levels and identify low-stock books
+- Analyze author-level performance
+- Identify books with no sales
+- Generate actionable business recommendations
 
-* Identified high-value customers contributing maximum revenue
-* Analyzed sales trends across different time periods
-* Extracted insights to support business decisions
+---
+
+## 🗂️ Dataset
+
+The project contains three relational datasets:
+
+### 📚 Books
+
+Contains information about books available in the bookstore.
+
+Key columns:
+
+- `Book_ID`
+- `Title`
+- `Author`
+- `Genre`
+- `Published_Year`
+- `Price`
+- `Stock`
+
+### 👤 Customers
+
+Contains customer information.
+
+Key columns:
+
+- `Customer_ID`
+- `Name`
+- `Email`
+- `Phone`
+- `City`
+- `Country`
+
+### 🛒 Orders
+
+Contains customer transaction information.
+
+Key columns:
+
+- `Order_ID`
+- `Customer_ID`
+- `Book_ID`
+- `Order_Date`
+- `Quantity`
+- `Total_Amount`
+
+---
+
+## 🛠️ Tools & Technologies
+
+- PostgreSQL
+- pgAdmin 4
+- SQL
+- Git
+- GitHub
+
+---
+
+## 🔗 Database Relationships
+
+```text
+Customers
+    |
+    | Customer_ID
+    ↓
+ Orders
+    |
+    | Book_ID
+    ↓
+ Books
