@@ -1,5 +1,13 @@
 # 📚 Online Bookstore Sales & Customer Analytics
 
+## 👨‍💻 Author
+
+**Abhishek Ojha**
+
+Computer Engineering Student | SQL & Data Analytics Enthusiast
+
+---
+
 ## 📌 Project Overview
 
 This project analyzes an online bookstore dataset using PostgreSQL to understand sales performance, customer purchasing behavior, book performance, revenue trends, and inventory status.
@@ -31,7 +39,7 @@ The project contains three relational datasets.
 
 Contains information about books available in the bookstore.
 
-**Key columns:**
+**Key Columns:**
 
 - `Book_ID`
 - `Title`
@@ -45,7 +53,7 @@ Contains information about books available in the bookstore.
 
 Contains customer information.
 
-**Key columns:**
+**Key Columns:**
 
 - `Customer_ID`
 - `Name`
@@ -58,7 +66,7 @@ Contains customer information.
 
 Contains customer transaction information.
 
-**Key columns:**
+**Key Columns:**
 
 - `Order_ID`
 - `Customer_ID`
@@ -71,11 +79,11 @@ Contains customer transaction information.
 
 ## 🛠️ Tools & Technologies
 
-- PostgreSQL
-- pgAdmin 4
-- SQL
-- Git
-- GitHub
+- **Database:** PostgreSQL
+- **Database Tool:** pgAdmin 4
+- **Language:** SQL
+- **Version Control:** Git
+- **Repository:** GitHub
 
 ---
 
@@ -86,21 +94,8 @@ Customers
     |
     | Customer_ID
     ↓
- Orders
+  Orders
     |
     | Book_ID
     ↓
- Books
- ## 👨‍💻 Author
-
-**Abhishek Ojha**
-
-Computer Engineering Student | SQL & Data Analytics Enthusiast
-
-### Skills Demonstrated
-
-`SQL` `PostgreSQL` `Data Analysis` `Git` `GitHub`
-
----
-
-⭐ If you find this project useful, feel free to explore the SQL analysis files.
+   Books
