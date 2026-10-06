@@ -4,7 +4,7 @@
 
 This project analyzes an online bookstore dataset using PostgreSQL to understand sales performance, customer purchasing behavior, book performance, revenue trends, and inventory status.
 
-The analysis was performed using SQL techniques ranging from basic aggregations to advanced concepts such as CTEs, window functions, `LAG()`, `DENSE_RANK()`, `CASE WHEN`, and `COALESCE()`.
+The project demonstrates SQL skills ranging from basic aggregations and joins to advanced analytical techniques such as CTEs, window functions, `LAG()`, `DENSE_RANK()`, `CASE WHEN`, and `COALESCE()`.
 
 ---
 
@@ -25,13 +25,13 @@ The main objectives of this project are:
 
 ## 🗂️ Dataset
 
-The project contains three relational datasets:
+The project contains three relational datasets.
 
 ### 📚 Books
 
 Contains information about books available in the bookstore.
 
-Key columns:
+**Key columns:**
 
 - `Book_ID`
 - `Title`
@@ -45,7 +45,7 @@ Key columns:
 
 Contains customer information.
 
-Key columns:
+**Key columns:**
 
 - `Customer_ID`
 - `Name`
@@ -58,7 +58,7 @@ Key columns:
 
 Contains customer transaction information.
 
-Key columns:
+**Key columns:**
 
 - `Order_ID`
 - `Customer_ID`
@@ -91,3 +91,16 @@ Customers
     | Book_ID
     ↓
  Books
+ ## 👨‍💻 Author
+
+**Abhishek Ojha**
+
+Computer Engineering Student | SQL & Data Analytics Enthusiast
+
+### Skills Demonstrated
+
+`SQL` `PostgreSQL` `Data Analysis` `Git` `GitHub`
+
+---
+
+⭐ If you find this project useful, feel free to explore the SQL analysis files.
